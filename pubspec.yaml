@@ -1,0 +1,40 @@
+name: blood_donation
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+ # sms_autofill: ^1.2.1
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.9.0"
+
+flutter_icons:
+  image_path: "images/blood.png"
+    # image_path_android: "images/blood.png"
+    # image_path_ios: "images/blood.png"
+  andoid: true
+  ios: true
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+     - images/drop.jpg
+     - images/blood.png
+
+
